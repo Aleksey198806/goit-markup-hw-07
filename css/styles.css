@@ -214,7 +214,7 @@ textarea {
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   margin: 0 auto 30px;
   max-width: 696px;
 
@@ -227,7 +227,7 @@ textarea {
   color: var(--light-titles-color);
 }
 
-.hero-button {
+.hero__button {
   display: block;
   min-width: 221px;
   padding: 10px 32px;
@@ -245,17 +245,17 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: var(--sec-bcg-btn-color);
   color: var(--first-font-btn-color);
 }
 
 /*----------Преимущетва -----------*/
-.pb-none {
+.benefits__pb-none {
   padding-bottom: 0;
 }
-.benefits-overtittle {
+.benefits__overtittle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -264,12 +264,12 @@ textarea {
   border-radius: 4px;
   background-color: #f5f4fa;
 }
-.benefits-list {
+.benefits__list {
   display: flex;
   gap: 30px;
 }
 
-.benefits-subtitle {
+.benefits__subtitle {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -279,7 +279,7 @@ textarea {
   text-transform: uppercase;
   color: var(--titles-color);
 }
-.benefits-text {
+.benefits__text {
   width: 270px;
   font-size: 14px;
   line-height: 1.71;
@@ -288,18 +288,18 @@ textarea {
 }
 
 /*----------Примеры работ-----------*/
-.examples {
+.example__section {
   background-color: var(--first-bcg-color);
   text-align: center;
 }
-.examples-list {
+.examples__list {
   display: flex;
   gap: 30px;
 }
-.examples-item {
+.examples__item {
   position: relative;
 }
-.examples-text {
+.examples__text {
   display: flex;
   position: absolute;
   font-style: normal;
@@ -318,15 +318,15 @@ textarea {
 }
 
 /*----------Наша команда-----------*/
-.team {
+.team__section {
   background-color: var(--third-bcg-color);
   text-align: center;
 }
-.team-list {
+.team__list {
   display: flex;
   gap: 30px;
 }
-.team-item {
+.team__item {
   width: 270px;
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -335,7 +335,7 @@ textarea {
   background-color: #ffffff;
 }
 
-.team-name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -343,19 +343,19 @@ textarea {
   letter-spacing: 0.03em;
   color: var(--titles-color);
 }
-.team-text {
+.team__text {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--text-color);
   margin-bottom: 16px;
 }
-.team-conteiner-icon {
+.team__conteiner-icon {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-.team-link-icon {
+.team__link-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -366,18 +366,18 @@ textarea {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #afb1b8;
 }
-.team-icon {
+.team__icon-svg {
   display: inline-flex;
   fill: currentColor;
 }
 
-.team-link-icon:hover,
-.team-link-icon:focus {
+.team__link-icon:hover,
+.team__link-icon:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
 
-.team-padding {
+.team__padding {
   padding-top: 30px;
   padding-right: 15px;
   padding-bottom: 30px;
