@@ -16,7 +16,7 @@
   border-radius: 4px;
 
   .backdrop.is-hidden & {
-    transform: translate(-50%, -50%) scale(0) perspective(400px) rotateX(90deg);
+    transform: translate(-50%, -50%) scale(0) perspective(400px) rotateY(360deg);
   }
 }
 

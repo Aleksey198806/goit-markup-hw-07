@@ -133,75 +133,6 @@ body {
   line-height: 1.17;
 }
 
-@-webkit-keyframes changeScale {
-  0% {
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-  }
-  100% {
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-  }
-}
-
-@keyframes changeScale {
-  0% {
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-  }
-  100% {
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-  }
-}
-@-webkit-keyframes changeStudio {
-  0% {
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes changeStudio {
-  0% {
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    opacity: 1;
-  }
-}
-@-webkit-keyframes changePortfolio {
-  0% {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes changePortfolio {
-  0% {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    opacity: 1;
-  }
-}
 .logo {
   text-decoration: none;
   color: #000000;
@@ -303,8 +234,8 @@ body {
   max-width: 1600px;
   background-color: #c4c4c4;
   color: #ffffff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/bitmap/hero-bg.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/bitmap/hero-bg.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -793,8 +724,8 @@ body {
   border-radius: 4px;
 }
 .backdrop.is-hidden .modal {
-  -webkit-transform: translate(-50%, -50%) scale(0) perspective(400px) rotateX(90deg);
-          transform: translate(-50%, -50%) scale(0) perspective(400px) rotateX(90deg);
+  -webkit-transform: translate(-50%, -50%) scale(0) perspective(400px) rotateY(360deg);
+          transform: translate(-50%, -50%) scale(0) perspective(400px) rotateY(360deg);
 }
 
 .close-btn {
