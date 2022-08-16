@@ -1,9 +1,9 @@
-.footer {
+.footer-page {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--sec-bcg-color);
 }
-.conteiner.box {
+.footer-page-box {
   display: flex;
   align-items: baseline;
 }
@@ -81,10 +81,6 @@
   &:focus {
     background-color: #2196f3;
   }
-}
-
-.shadow {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .footer-partner-icon {
