@@ -21,8 +21,6 @@
 .logo-text {
   color: var(--accent-color);
 }
-.logo {
-}
 
 .header-link {
   display: block;
@@ -35,12 +33,12 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
-.header-link:hover,
-.header-link:focus {
-  color: var(--accent-color);
-}
 .header-list .link.current::after {
   content: "";
   position: absolute;
@@ -51,18 +49,20 @@
   bottom: -1px;
   border-radius: 2px;
   background: #2196f3;
+  .header-list & {
+    color: #2196f3;
+  }
 }
-.header-list .current {
-  color: #2196f3;
-}
+
 .contacts-list,
 .header-list {
   display: flex;
   gap: 50px;
+  & {
+    margin-left: auto;
+  }
 }
-.contacts-list {
-  margin-left: auto;
-}
+
 .header-contacts {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -72,25 +72,24 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  & {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
-.header-contacts {
-  display: flex;
-  align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .contacts-icon {
   margin-right: 10px;
   fill: currentColor;
-}
-
-.header-contacts:hover,
-.header-contacts:focus {
-  color: var(--accent-color);
 }
