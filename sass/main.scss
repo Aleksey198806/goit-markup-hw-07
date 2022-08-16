@@ -19,10 +19,11 @@
 // * Постоянные клиенты
 @import "./components/studio/client";
 // * Footer
-@import "./components/footer";
+@import "./components/studio/footer";
+@import "./components/studio/footer-partner";
 // * PORTFOLIO PAGE
-@import "./components/portfolio/portfoliobtn";
 @import "./components/portfolio/card";
+@import "./components/portfolio/portfoliobtn";
 // * Modal
 @import "./components/modal/backdrop";
 @import "./components/modal/modal";
