@@ -4,7 +4,7 @@
 }
 .team__list {
   display: flex;
-  gap: 30px;
+  gap: $cardSetGap;
 }
 .team__item {
   width: 270px;
@@ -42,8 +42,7 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  transition: $transitionBgc,
-    $transitionColor;
+  transition: $transitionBgc, $transitionColor;
   &:hover,
   &:focus {
     background-color: #2196f3;

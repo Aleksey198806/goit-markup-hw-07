@@ -14,7 +14,7 @@
 }
 .companies {
   display: flex;
-  gap: 30px;
+  gap: $cardSetGap;
 }
 .companies__link-icon {
   display: flex;

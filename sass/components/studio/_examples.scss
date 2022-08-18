@@ -4,7 +4,7 @@
 }
 .examples__list {
   display: flex;
-  gap: 30px;
+  gap: $cardSetGap;
 }
 .examples__item {
   position: relative;

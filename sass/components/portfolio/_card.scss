@@ -1,7 +1,7 @@
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: $cardSetGap;
 }
 
 .portfolio-item {
