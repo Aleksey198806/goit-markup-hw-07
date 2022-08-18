@@ -85,6 +85,7 @@ textarea {
   --sec-font-btn-color: #212121;
   --first-bcg-btn-color: #2196f3;
   --sec-bcg-btn-color: #188ce8;
+  --checkbox-box: #2196f3;
 }
 
 .visually-hidden {
@@ -102,7 +103,7 @@ textarea {
 }
 
 .header {
-  background-color: var(--first-bcg-color);
+  background-color: #ffffff;
   border-bottom: 1px solid #ececec;
 }
 
@@ -126,7 +127,7 @@ textarea {
 }
 
 .header__logo-text {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .navigation__link {
@@ -142,7 +143,7 @@ textarea {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation__link:hover, .navigation__link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .navigation__list .link.current::after {
@@ -180,7 +181,7 @@ textarea {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: #757575;
 }
 .contacts__tel {
   display: -webkit-box;
@@ -199,7 +200,7 @@ textarea {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts__tel:hover, .contacts__tel:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .contacts__icon {
@@ -221,7 +222,7 @@ textarea {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--light-titles-color);
+  color: #ffffff;
 }
 
 .hero__button {
@@ -235,15 +236,15 @@ textarea {
   line-height: 1.88;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  color: var(--first-font-btn-color);
+  color: #ffffff;
   background-color: var(--first-bcg-btn-color);
   cursor: pointer;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero__button:hover, .hero__button:focus {
-  background-color: var(--sec-bcg-btn-color);
-  color: var(--first-font-btn-color);
+  background-color: #188ce8;
+  color: #ffffff;
 }
 
 .overlay {
@@ -871,7 +872,7 @@ textarea {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--titles-color);
 }
 
 .form-label {
@@ -1028,11 +1029,11 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-box-checkbox:checked + .checkbox-box-icon {
-  background-color: #2196f3;
-  border-color: #2196f3;
+  background-color: var(--checkbox-box);
+  border-color: var(--checkbox-box);
 }
 .checkbox-box-checkbox:focus + .checkbox-box-icon {
-  border-color: #2196f3;
+  border-color: var(--checkbox-box);
 }
 
 .checkbox-box-icon--checked {
@@ -1045,7 +1046,7 @@ textarea {
 }
 
 .checkbox-box-link {
-  color: #2196f3;
+  color: var(--checkbox-box);
 }
 
 .order-form-button-cube {

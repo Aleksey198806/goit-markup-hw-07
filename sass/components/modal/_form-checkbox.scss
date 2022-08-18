@@ -35,14 +35,13 @@
   height: 15px;
   border: 2px solid #212121;
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: $transitionBgc, $transitionBorder;
   .checkbox-box-checkbox:checked + & {
-    background-color: #2196f3;
-    border-color: #2196f3;
+    background-color: var(--checkbox-box);
+    border-color: var(--checkbox-box);
   }
   .checkbox-box-checkbox:focus + & {
-    border-color: #2196f3;
+    border-color: var(--checkbox-box);
   }
 }
 
@@ -56,5 +55,5 @@
 }
 
 .checkbox-box-link {
-  color: #2196f3;
+  color: var(--checkbox-box);
 }
