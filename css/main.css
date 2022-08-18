@@ -106,7 +106,7 @@ textarea {
   border-bottom: 1px solid #ececec;
 }
 
-.heade__conteiner {
+.box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -156,7 +156,8 @@ textarea {
   border-radius: 2px;
   background: #2196f3;
 }
-.header-list .navigation__list .link.current::after {
+
+.navigation__list .current {
   color: #2196f3;
 }
 

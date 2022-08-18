@@ -2,7 +2,7 @@
   background-color: var(--first-bcg-color);
   border-bottom: 1px solid #ececec;
 }
-.heade__conteiner {
+.box {
   display: flex;
   align-items: center;
 }
@@ -49,9 +49,9 @@
   bottom: -1px;
   border-radius: 2px;
   background: #2196f3;
-  .header-list & {
-    color: #2196f3;
-  }
+}
+.navigation__list .current {
+  color: #2196f3;
 }
 
 .contacts__list,
