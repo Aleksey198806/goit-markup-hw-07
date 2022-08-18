@@ -1,7 +1,7 @@
 .pb-none {
   padding-bottom: 0;
 }
-.benefits-overtittle {
+.benefits__overtittle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,12 +10,12 @@
   border-radius: 4px;
   background-color: #f5f4fa;
 }
-.benefits-list {
+.benefits__list {
   display: flex;
   gap: 30px;
 }
 
-.benefits-subtitle {
+.benefits__subtitle {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -25,7 +25,7 @@
   text-transform: uppercase;
   color: var(--titles-color);
 }
-.benefits-text {
+.benefits__text {
   width: 270px;
   font-size: 14px;
   line-height: 1.71;

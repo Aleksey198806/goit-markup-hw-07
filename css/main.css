@@ -106,7 +106,7 @@ textarea {
   border-bottom: 1px solid #ececec;
 }
 
-.box {
+.heade__conteiner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,7 +115,7 @@ textarea {
           align-items: center;
 }
 
-.header-logo {
+.header__logo {
   margin-right: 93px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -125,11 +125,11 @@ textarea {
   color: var(--logo-color);
 }
 
-.logo-text {
+.header__logo-text {
   color: var(--accent-color);
 }
 
-.header-link {
+.navigation__link {
   display: block;
   position: relative;
   padding-top: 32px;
@@ -141,11 +141,11 @@ textarea {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-link:hover, .header-link:focus {
+.navigation__link:hover, .navigation__link:focus {
   color: var(--accent-color);
 }
 
-.header-list .link.current::after {
+.navigation__list .link.current::after {
   content: "";
   position: absolute;
   display: block;
@@ -156,23 +156,23 @@ textarea {
   border-radius: 2px;
   background: #2196f3;
 }
-.header-list .header-list .link.current::after {
+.header-list .navigation__list .link.current::after {
   color: #2196f3;
 }
 
-.contacts-list,
-.header-list {
+.contacts__list,
+.navigation__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 50px;
 }
-.contacts-list,
-.header-list {
+
+.header__contacts {
   margin-left: auto;
 }
 
-.header-contacts {
+.contacts__tel {
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -181,7 +181,7 @@ textarea {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.header-contacts {
+.contacts__tel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,11 +197,11 @@ textarea {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-contacts:hover, .header-contacts:focus {
+.contacts__tel:hover, .contacts__tel:focus {
   color: var(--accent-color);
 }
 
-.contacts-icon {
+.contacts__icon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -211,7 +211,7 @@ textarea {
   padding: 200px 0;
 }
 
-.hero-title {
+.hero__title {
   margin: 0 auto 30px;
   max-width: 696px;
   font-weight: 900;
@@ -223,7 +223,7 @@ textarea {
   color: var(--light-titles-color);
 }
 
-.hero-button {
+.hero__button {
   display: block;
   min-width: 221px;
   padding: 10px 32px;
@@ -240,7 +240,7 @@ textarea {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-button:hover, .hero-button:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: var(--sec-bcg-btn-color);
   color: var(--first-font-btn-color);
 }
@@ -262,7 +262,7 @@ textarea {
   padding-bottom: 0;
 }
 
-.benefits-overtittle {
+.benefits__overtittle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -278,14 +278,14 @@ textarea {
   background-color: #f5f4fa;
 }
 
-.benefits-list {
+.benefits__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
 
-.benefits-subtitle {
+.benefits__subtitle {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -295,7 +295,7 @@ textarea {
   color: var(--titles-color);
 }
 
-.benefits-text {
+.benefits__text {
   width: 270px;
   font-size: 14px;
   line-height: 1.71;
@@ -308,18 +308,18 @@ textarea {
   text-align: center;
 }
 
-.examples-list {
+.examples__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
 
-.examples-item {
+.examples__item {
   position: relative;
 }
 
-.examples-text {
+.examples__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -348,14 +348,14 @@ textarea {
   text-align: center;
 }
 
-.team-list {
+.team__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
 
-.team-item {
+.team__item {
   width: 270px;
   text-align: center;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -364,7 +364,7 @@ textarea {
   background-color: #ffffff;
 }
 
-.team-name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -373,7 +373,7 @@ textarea {
   color: var(--titles-color);
 }
 
-.team-text {
+.team__text {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -381,7 +381,7 @@ textarea {
   margin-bottom: 16px;
 }
 
-.team-conteiner-icon {
+.socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -391,7 +391,7 @@ textarea {
   gap: 10px;
 }
 
-.team-link-icon {
+.socials__link-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -408,19 +408,19 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #afb1b8;
 }
-.team-link-icon:hover, .team-link-icon:focus {
+.socials__link-icon:hover, .socials__link-icon:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
 
-.team-icon {
+.socials__icon {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   fill: currentColor;
 }
 
-.team-padding {
+.team__padding {
   padding-top: 30px;
   padding-right: 15px;
   padding-bottom: 30px;
@@ -432,7 +432,7 @@ textarea {
   text-align: center;
 }
 
-.client-title {
+.client__title {
   margin-top: 0px;
   margin-bottom: 50px;
   font-weight: 700;
@@ -443,14 +443,14 @@ textarea {
   color: var(--titles-color);
 }
 
-.client-list {
+.companies {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
 
-.client-link-icon {
+.companies__link-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -466,20 +466,20 @@ textarea {
   border-radius: 4px;
   cursor: pointer;
 }
-.client-link-icon:hover .client-icon, .client-link-icon:focus .client-icon {
+.companies__link-icon:hover .companies__icon, .companies__link-icon:focus .companies__icon {
   fill: #2196f3;
 }
-.client-link-icon:hover, .client-link-icon:focus {
+.companies__link-icon:hover, .companies__link-icon:focus {
   border-color: #2196f3;
 }
 
-.client-link-icon,
-.client-icon {
+.companies__link-icon,
+.companies__icon {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client-link-icon,
-.client-icon {
+.companies__link-icon,
+.companies__icon {
   fill: #afb1b8;
 }
 

@@ -2,14 +2,14 @@
   background-color: var(--first-bcg-color);
   text-align: center;
 }
-.examples-list {
+.examples__list {
   display: flex;
   gap: 30px;
 }
-.examples-item {
+.examples__item {
   position: relative;
 }
-.examples-text {
+.examples__text {
   display: flex;
   position: absolute;
   font-style: normal;

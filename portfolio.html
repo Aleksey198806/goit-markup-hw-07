@@ -18,58 +18,60 @@
   <body>
     <!-- Шапка  -->
     <header class="header">
-      <div class="conteiner box">
-        <div class="logo">
-          <a href="./index.html" class="header-logo link"
-            ><span class="logo-text">Web</span>Studio</a
-          >
-        </div>
-        <nav>
-          <ul class="header-list list box">
-            <li class="header-item">
-              <a href="./index.html" class="header-link link">Студія</a>
+      <header class="header">
+      <div class="conteiner heade__conteiner">
+        <a href="/" class="header__logo link"
+          ><span class="header__logo-text">Web</span>Studio</a
+        >
+        
+        <nav class="navigation">
+          <ul class="navigation__list list box">
+            <li class="navigation__item">
+              <a href="./index.html" class="navigation__link link">Студія</a>
             </li>
-            <li class="header-item">
+            <li class="navigation__item">
               <a
                 href="/"
                 target="_self"
                 rel="norefferer noopener nofollow"
-                class="header-link link current"
+                class="navigation__link link current"
                 >Портфоліо
               </a>
             </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Контакти</a>
+            <li class="navigation__item">
+              <a href="" class="navigation__link link">Контакти</a>
             </li>
           </ul>
         </nav>
 
         <!-- Шапка contacts -->
 
-        <ul class="contacts-list list box">
-          <li class="contacts-item">
-            <a href="mailto:info@devstudio.com" class="header-contacts link"
-              ><svg class="contacts-icon" width="16" height="12">
-                <use
-                  href="./images/icons.svg/symbol-defs-icon.svg#envelope"
-                ></use>
-              </svg>
-              info@devstudio.com</a
-            >
-          </li>
-          <li class="contacts-item">
-            <a
-              href="tel:+380961111111"
-              class="header-contacts icon-vector link"
-            >
-              <svg class="contacts-icon" width="10" height="16">
-                <use
-                  href="./images/icons.svg/symbol-defs-icon.svg#vector"
-                ></use></svg
-              >+38 096 111 11 11
-            </a>
-          </li>
-        </ul>
+        <div class="contacts header__contacts">
+          <ul class="contacts__list list">
+            <li class="contacts__item">
+              <a href="mailto:info@devstudio.com" class="contacts__tel link"
+                ><svg class="contacts__icon" width="16" height="12">
+                  <use
+                    href="./images/icons.svg/symbol-defs-icon.svg#envelope"
+                  ></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts__item">
+              <a
+                href="tel:+380961111111"
+                class="contacts__tel icon-vector link"
+              >
+                <svg class="contacts__icon" width="10" height="16">
+                  <use
+                    href="./images/icons.svg/symbol-defs-icon.svg#vector"
+                  ></use></svg
+                >+38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <!-- main -->
@@ -293,8 +295,8 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="footer">
-      <div class="conteiner box">
+    <footer class="footer-page">
+      <div class="conteiner footer-page-box">
         <div class="footer-block">
           <a href="/" class="footer-logo link"
             ><span class="logo-text">Web</span>Studio</a
@@ -327,7 +329,7 @@
               ></a>
             </li>
             <li class="footer-partner-item">
-              <a href="./" class="footer-partner-link shadow"
+              <a href="" class="footer-partner-link shadow"
                 ><svg class="footer-partner-icon" width="20" height="20">
                   <use
                     href="./images/icons.svg/symbol-defs-icon.svg#twitter"
@@ -335,7 +337,7 @@
               ></a>
             </li>
             <li class="footer-partner-item">
-              <a href="./" class="footer-partner-link shadow"
+              <a href="" class="footer-partner-link shadow"
                 ><svg class="footer-partner-icon" width="20" height="20">
                   <use
                     href="./images/icons.svg/symbol-defs-icon.svg#facebook"
@@ -343,7 +345,7 @@
               ></a>
             </li>
             <li class="footer-partner-item">
-              <a href="./" class="footer-partner-link"
+              <a href="" class="footer-partner-link"
                 ><svg class="footer-partner-icon" width="20" height="20">
                   <use
                     href="./images/icons.svg/symbol-defs-icon.svg#linkedin"
