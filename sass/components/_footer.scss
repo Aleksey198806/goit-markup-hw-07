@@ -1,17 +1,14 @@
-.footer-page {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--sec-bcg-color);
 }
-.footer-page-box {
-  display: flex;
-  align-items: baseline;
-}
-.footer-block {
+
+.footer__block {
   margin-right: 70px;
 }
 
-.footer-logo {
+.footer__logo {
   display: inline-block;
   margin-bottom: 20px;
   font-family: "Raleway", sans-serif;
@@ -22,15 +19,15 @@
   letter-spacing: 0.03em;
   color: var(--basement-logo-color);
 }
-.logo-text {
+.logo__text {
   color: var(--accent-color);
 }
 
-.footer-address {
+.address__footer {
   font-style: normal;
 }
 
-.footer-text {
+.address__text {
   display: inline-block;
   margin-bottom: 9px;
   font-size: 14px;
@@ -38,11 +35,11 @@
   letter-spacing: 0.03em;
   color: var(--light-titles-color);
 }
-.footer-list > .footer-item:not(:last-child) {
+.address__list > .address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-contacts {
+.address__contacts {
   display: inline-block;
   font-size: 14px;
   line-height: 1.71;
@@ -50,8 +47,7 @@
   color: var(--basement-contacts-color);
 }
 
-.footer-partner-title {
-  margin-top: 0;
+.footer-partner__title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -62,12 +58,12 @@
   border: 1px solid #2f303a;
 }
 
-.footer-partner-list {
+.footer-partner__list {
   display: flex;
   gap: 10px;
 }
 
-.footer-partner-link {
+.footer-partner__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,11 +79,25 @@
   }
 }
 
-.footer-partner-icon {
+.footer-partner__icon {
   fill: var(--light-titles-color);
 }
-.footer-partner-block {
-  margin-right: auto;
+.footer__partner {
+  margin: auto;
+  padding-bottom: 35px;
+}
+.footer-form {
+  margin-left: 94px;
+  padding-bottom: 35px;
+}
+.footer-form__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-titles-color);
 }
 
 .footer-form__wrapper {
@@ -95,8 +105,6 @@
 }
 
 .footer-form__input {
-  display: block;
-  margin-right: 12px;
   padding: 14px 16px;
 
   min-width: 358px;
@@ -126,7 +134,11 @@
 .footer-form__submit {
   display: flex;
   align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 50px;
   padding: 10px 28px;
+  margin-left: 12px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;

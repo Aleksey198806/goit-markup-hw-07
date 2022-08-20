@@ -412,58 +412,60 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="footer-page">
-      <div class="conteiner footer-page-box">
-        <div class="footer-block">
-          <a href="/" class="footer-logo link"
-            ><span class="logo-text">Web</span>Studio</a
+    <footer class="footer">
+      <div class="conteiner box">
+        <div class="footer__block">
+          <a href="/" class="footer__logo link"
+            ><span class="logo__text">Web</span>Studio</a
           >
-          <address class="footer-address">
-            <p class="footer-text">м. Київ, пр-т Лесі Українки, 26</p>
-            <ul class="footer-list list">
-              <li class="footer-item">
-                <a href="mailto:info@devstudio.com" class="footer-contacts link"
+          <address class="address address__footer">
+            <p class="address__text">м. Київ, пр-т Лесі Українки, 26</p>
+            <ul class="address__list list">
+              <li class="address__item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="address__contacts link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer-item">
-                <a href="tel:+380961111111" class="footer-contacts link"
+              <li class="address__item">
+                <a href="tel:+380961111111" class="address__contacts link"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-partner-block">
-          <h2 class="footer-partner-title">приєднуйтесь</h2>
-          <ul class="footer-partner-list list">
-            <li class="footer-partner-item">
-              <a href="./" class="footer-partner-link"
-                ><svg class="footer-partner-icon" width="20" height="20">
+        <div class="footer-partner">
+          <h2 class="footer-partner__title">приєднуйтесь</h2>
+          <ul class="footer-partner__list list">
+            <li class="footer-partner__item">
+              <a href="./" class="footer-partner__link"
+                ><svg class="footer-partner__icon" width="20" height="20">
                   <use
                     href="./images/icons.svg/symbol-defs-icon.svg#instagram"
                   ></use></svg
               ></a>
             </li>
-            <li class="footer-partner-item">
-              <a href="" class="footer-partner-link shadow"
-                ><svg class="footer-partner-icon" width="20" height="20">
+            <li class="footer-partner__item">
+              <a href="" class="footer-partner__link shadow"
+                ><svg class="footer-partner__icon" width="20" height="20">
                   <use
                     href="./images/icons.svg/symbol-defs-icon.svg#twitter"
                   ></use></svg
               ></a>
             </li>
-            <li class="footer-partner-item">
-              <a href="" class="footer-partner-link shadow"
-                ><svg class="footer-partner-icon" width="20" height="20">
+            <li class="footer-partner__item">
+              <a href="" class="footer-partner__link shadow"
+                ><svg class="footer-partner__icon" width="20" height="20">
                   <use
                     href="./images/icons.svg/symbol-defs-icon.svg#facebook"
                   ></use></svg
               ></a>
             </li>
-            <li class="footer-partner-item">
-              <a href="" class="footer-partner-link"
-                ><svg class="footer-partner-icon" width="20" height="20">
+            <li class="footer-partner__item">
+              <a href="" class="footer-partner__link"
+                ><svg class="footer-partner__icon" width="20" height="20">
                   <use
                     href="./images/icons.svg/symbol-defs-icon.svg#linkedin"
                   ></use></svg
@@ -471,28 +473,26 @@
             </li>
           </ul>
         </div>
-        <div class="footer-third-container">
-          <form class="footer-form">
-            <h2 class="footer-partner-title">Підпишіться на розсилку</h2>
-            <div class="footer-form__wrapper">
-              <input
-                type="email"
-                name="email"
-                class="footer-form__input"
-                required
-                placeholder="E-mail"
-              />
-              <button type="submit" class="footer-form__submit">
-                Підписатися
-                <svg width="24" height="24" class="footer-form__icon">
-                  <use
-                    href="./images/icons.svg/symbol-defs-icon.svg#iconsendfly"
-                  ></use>
-                </svg>
-              </button>
-            </div>
-          </form>
-        </div>
+        <form class="footer-form">
+          <h2 class="footer-form__title">Підпишіться на розсилку</h2>
+          <div class="footer-form__wrapper">
+            <input
+              type="email"
+              name="email"
+              class="footer-form__input"
+              required
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-form__submit">
+              Підписатися
+              <svg width="24" height="24" class="footer-form__icon">
+                <use
+                  href="./images/icons.svg/symbol-defs-icon.svg#iconsendfly"
+                ></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
