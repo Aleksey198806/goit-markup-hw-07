@@ -1,14 +1,14 @@
-.portfolio-list {
+.portfolio {
   display: flex;
   flex-wrap: wrap;
   gap: $cardSetGap;
 }
 
-.portfolio-item {
+.portfolio__item {
   width: 370px;
 }
 
-.portfolio-list .portfolio-item-link {
+.portfolio .portfolio__link {
   display: block;
   text-decoration: none;
   transition: $transitionBoxShadow;
@@ -18,11 +18,11 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
-.porfolio-overlay {
+.porfolio__overlay {
   position: relative;
   overflow: hidden;
 }
-.overlay-tittle {
+.overlay__tittle {
   position: absolute;
   display: block;
   top: 0;
@@ -45,13 +45,13 @@
   }
 }
 
-.portfilio-conteiner {
+.portfilio__conteiner {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
 
-.portfolio-subtitle {
+.portfolio__subtitle {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -59,7 +59,7 @@
   color: var(--titles-color);
 }
 
-.portfolio-text {
+.portfolio__text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
