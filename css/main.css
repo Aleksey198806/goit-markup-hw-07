@@ -2,6 +2,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
 .title {
   margin-bottom: 50px;
   font-size: 36px;
@@ -104,15 +113,6 @@ textarea {
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
-}
-
-.box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .header__logo {

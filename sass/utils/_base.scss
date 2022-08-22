@@ -1,6 +1,10 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.box {
+  display: flex;
+  align-items: baseline;
+}
 
 .title {
   margin-bottom: 50px;
