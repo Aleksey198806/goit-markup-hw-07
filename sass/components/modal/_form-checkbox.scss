@@ -37,11 +37,11 @@
   border-radius: 2px;
   transition: $transitionBgc, $transitionBorder;
   .checkbox-box-checkbox:checked + & {
-    background-color: var(--checkbox-box);
-    border-color: var(--checkbox-box);
+    background-color: $accentColor;
+    border-color: $accentColor;
   }
   .checkbox-box-checkbox:focus + & {
-    border-color: var(--checkbox-box);
+    border-color: $accentColor;
   }
 }
 
@@ -55,5 +55,5 @@
 }
 
 .checkbox-box-link {
-  color: var(--checkbox-box);
+  color: $accentColor;
 }

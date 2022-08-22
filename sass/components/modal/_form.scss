@@ -35,10 +35,10 @@
   border-radius: 4px;
   transition: $transitionBorder;
   &:focus + .form-field-icon {
-    fill: #2196f3;
+    fill: $accentColor;
   }
   &:focus {
-    border: 1px solid #2196f3;
+    border: 1px solid $accentColor;
   }
 }
 
@@ -78,7 +78,7 @@
     color: rgba(117, 117, 117, 0.5);
   }
   &:focus {
-    border: 1px solid #2196f3;
+    border: 1px solid $accentColor;
   }
 }
 
