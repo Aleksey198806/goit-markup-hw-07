@@ -33,7 +33,7 @@
   color: #757575;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  transition: $transitionBorder;
+  transition: border var(--transition-main);
   &:focus + .form-field-icon {
     fill: $accentColor;
   }
@@ -48,7 +48,7 @@
   left: 12px;
   fill: #212121;
   transform: translateY(-50%);
-  transition: $transitionfill;
+  transition: fill var(--transition-main);
 }
 
 .order-form-form-field {
@@ -69,7 +69,7 @@
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  transition: $transitionBorder;
+  transition: border var(--transition-main);
   &::placeholder {
     font-size: 12px;
     line-height: 14px;

@@ -35,13 +35,14 @@
   height: 15px;
   border: 2px solid #212121;
   border-radius: 2px;
-  transition: $transitionBgc, $transitionBorder;
+  transition: background-color var(--transition-main),
+    border var(--transition-main);
   .checkbox-box-checkbox:checked + & {
-    background-color: $accentColor;
-    border-color: $accentColor;
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
   }
   .checkbox-box-checkbox:focus + & {
-    border-color: $accentColor;
+    border-color: var(--accent-color);
   }
 }
 
@@ -55,5 +56,5 @@
 }
 
 .checkbox-box-link {
-  color: $accentColor;
+  color: var(--accent-color);
 }

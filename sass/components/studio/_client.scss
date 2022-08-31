@@ -37,7 +37,7 @@
 }
 .companies__link-icon,
 .companies__icon {
-  transition: $transitionfill, $transitionBorder;
+  transition: fill var(--transition-main), border var(--transition-main);
   & {
     fill: #afb1b8;
   }

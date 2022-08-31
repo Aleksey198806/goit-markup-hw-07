@@ -42,7 +42,8 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  transition: $transitionBgc, $transitionColor;
+  transition: background-color var(--transition-main),
+    color var(--transition-main);
   &:hover,
   &:focus {
     background-color: #2196f3;

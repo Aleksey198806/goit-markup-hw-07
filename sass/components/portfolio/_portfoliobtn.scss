@@ -18,7 +18,8 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: $transitionColor, $transitionBgc, $transitionBoxShadow;
+  transition: color var(--transition-main),
+    background-color var(--transition-main), box-shadow var(--transition-main);
   &:hover,
   &:focus {
     color: var(--first-font-btn-color);
