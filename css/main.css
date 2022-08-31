@@ -117,7 +117,7 @@ textarea {
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: var(--first-bcg-color);
   border-bottom: 1px solid #ececec;
 }
 
@@ -132,7 +132,7 @@ textarea {
 }
 
 .header__logo-text {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .navigation__link {
@@ -148,7 +148,7 @@ textarea {
   transition: color var(--transition-main);
 }
 .navigation__link:hover, .navigation__link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .navigation__list .link.current::after {
@@ -160,11 +160,11 @@ textarea {
   left: 0;
   bottom: -1px;
   border-radius: 2px;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 
 .navigation__list .current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contacts__list,
@@ -186,7 +186,7 @@ textarea {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-color);
 }
 .contacts__tel {
   display: -webkit-box;
@@ -205,7 +205,7 @@ textarea {
   transition: color var(--transition-main);
 }
 .contacts__tel:hover, .contacts__tel:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contacts__icon {
@@ -227,7 +227,7 @@ textarea {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--light-titles-color);
 }
 
 .hero__button {
@@ -241,15 +241,15 @@ textarea {
   line-height: 1.88;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--first-font-btn-color);
   background-color: var(--first-bcg-btn-color);
   cursor: pointer;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero__button:hover, .hero__button:focus {
-  background-color: #188ce8;
-  color: #ffffff;
+  background-color: var(--sec-bcg-btn-color);
+  color: var(--first-font-btn-color);
 }
 
 .overlay {
@@ -916,10 +916,10 @@ textarea {
   transition: border var(--transition-main);
 }
 .form-field-inpat:focus + .form-field-icon {
-  fill: #2196f3;
+  fill: var(--accent-color);
 }
 .form-field-inpat:focus {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--accent-color);
 }
 
 .form-field-icon {
@@ -983,7 +983,7 @@ textarea {
   color: rgba(117, 117, 117, 0.5);
 }
 .form-field-commentary:focus {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--accent-color);
 }
 
 .form-cube-label {
@@ -1080,8 +1080,8 @@ textarea {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--first-font-btn-colo);
+  background-color: var(--first-bcg-btn-color);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -1091,5 +1091,5 @@ textarea {
   cursor: pointer;
 }
 .order-form-button:hover, .order-form-button:focus {
-  background-color: #188ce8;
+  background-color: var(--sec-bcg-btn-color);
 }/*# sourceMappingURL=main.css.map */

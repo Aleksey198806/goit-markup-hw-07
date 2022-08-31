@@ -1,6 +1,6 @@
 .header {
-  background-color: $primaryBgc;
-  border-bottom: $headerBorder;
+  background-color: var(--first-bcg-color);
+  border-bottom: 1px solid #ececec;
 }
 
 .header__logo {
@@ -15,7 +15,7 @@
 }
 
 .header__logo-text {
-  color: $accentColor;
+  color: var(--accent-color);
 }
 
 .navigation__link {
@@ -31,7 +31,7 @@
   transition: color var(--transition-main);
   &:hover,
   &:focus {
-    color: $accentColor;
+    color: var(--accent-color);
   }
 }
 
@@ -44,10 +44,10 @@
   left: 0;
   bottom: -1px;
   border-radius: 2px;
-  background: $accentColor;
+  background: var(--accent-color);
 }
 .navigation__list .current {
-  color: $accentColor;
+  color: var(--accent-color);
 }
 
 .contacts__list,
@@ -68,7 +68,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: $primaryTextColor;
+  color: var(--text-color);
   & {
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@
   }
   &:hover,
   &:focus {
-    color: $accentColor;
+    color: var(--accent-color);
   }
 }
 

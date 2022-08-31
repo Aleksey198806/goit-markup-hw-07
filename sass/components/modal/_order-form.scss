@@ -12,8 +12,8 @@
   line-height: 1.88;
   letter-spacing: 0.06em;
 
-  color: $btnfontColor;
-  background-color: $btnbackColor;
+  color: var(--first-font-btn-colo);
+  background-color: var(--first-bcg-btn-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -21,6 +21,6 @@
   cursor: pointer;
   &:hover,
   &:focus {
-    background-color: $btnColor;
+    background-color: var(--sec-bcg-btn-color);
   }
 }
